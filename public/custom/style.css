@@ -1,0 +1,34 @@
+
+/* Header background and text color */
+#example1 thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Body row colors */
+#example1 tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+#example1 tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+/* Hover effect on rows */
+#example1 tbody tr:hover {
+    background-color: #dee2e6;
+}
+
+/* DataTable buttons color */
+.dt-buttons .dt-button {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    color: #ffffff !important;
+}
+
+/* Search and length menu color */
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_filter input {
+    border-color: #007bff;
+}
+
